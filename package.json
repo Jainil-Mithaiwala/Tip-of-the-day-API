@@ -1,12 +1,15 @@
 {
-  "name": "node-js",
+  "name": "tech-tip-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "An API providing tech tips of the day",
+  "main": "tipoftheday.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node tipoftheday.js"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.17.2",
+    "cors": "^2.8.5",
+    "node-cron": "^2.0.3"
+  },
+  "license": "MIT"
 }
