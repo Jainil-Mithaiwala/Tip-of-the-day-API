@@ -4,7 +4,7 @@
   "description": "An API providing tech tips of the day",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node tipoftheday.js"
   },
   "dependencies": {
     "express": "^4.17.2",
