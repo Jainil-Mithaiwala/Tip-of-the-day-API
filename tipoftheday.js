@@ -1,9 +1,7 @@
 const express = require("express");
+const cron = require("node-cron");
 const app = express();
-const cors = require('cors')
-const port = 3000;
-
-app.use(cors());
+const port = 1997;
 
 const tipOfTheDay = [
         {heading: "Clean Your Hardware: ", info: "Regularly clean your keyboard, mouse, and monitor to ensure longevity and performance."},
